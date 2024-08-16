@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board </title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="toolbox-container">
+        <div class="toolbox-priority">
+            <div class="color red"></div>
+            <div class="color green"></div>
+            <div class="color blue"></div>
+            <div class="color black"></div>
+        </div>
+        <div class="action-btn">
+            <div class="add-btn">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="delete-btn">
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-contaier">
+        <!-- <div class="ticket-container">
+            <div class="ticket-color red"></div>
+            <div class="ticket-id">#123456</div>
+            <div class="task-area"> Learn HTML</div>
+        </div> -->
+    </div>
+    <div class="model-container">
+        <textarea placeholder="Enter Your Task" class="model-testarea"></textarea>
+        <div class="model-priority-color">
+            <div class="pri-color red active"></div>
+            <div class="pri-color blue"></div>
+            <div class="pri-color green"></div>
+            <div class="pri-color black"></div>
+        </div>        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@5.2.0/dist/short-unique-id.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html> 
